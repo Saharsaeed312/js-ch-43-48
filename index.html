@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Js Assignment 42-48</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Question:no:01 -->
+       <a href="#" onclick="myLink()">Click me</a>
+
+       <!-- Question:no:02 -->
+        <div class="container">
+
+            <img src="iphone.jpeg" alt="mobile1" onclick="showMessage('You clicked on Mobile 1!')">
+            <img src="google.jpeg" alt="mobile2" onclick="showMessage('You clicked on Mobile 2!')">
+            <img src="samg.jpeg" alt="mobile3" onclick="showMessage('You clicked on Mobile 3!')">
+        </div>
+        <!-- Question:no:03 -->
+        <table>
+            <thead>
+              <tr>
+                <th>#</th>
+                <th>Name</th>
+                <th>Age</th>
+                <th>Grade</th>
+                <th>Action</th>
+              </tr>
+            </thead>
+            <tbody id="studentTable">
+              <tr>
+                <td>1</td>
+                <td>John Doe</td>
+                <td>16</td>
+                <td>A</td>
+                <td><button onclick="deleteRow(this)">Delete</button></td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>Jane Smith</td>
+                <td>15</td>
+                <td>B</td>
+                <td><button onclick="deleteRow(this)">Delete</button></td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td>Emily Davis</td>
+                <td>17</td>
+                <td>A</td>
+                <td><button onclick="deleteRow(this)">Delete</button></td>
+              </tr>
+              <tr>
+                <td>4</td>
+                <td>Michael Brown</td>
+                <td>16</td>
+                <td>B</td>
+                <td><button onclick="deleteRow(this)">Delete</button></td>
+              </tr>
+              <tr>
+                <td>5</td>
+                <td>Sarah Wilson</td>
+                <td>15</td>
+                <td>A</td>
+                <td><button onclick="deleteRow(this)">Delete</button></td>
+              </tr>
+              <tr>
+                <td>6</td>
+                <td>Chris Lee</td>
+                <td>17</td>
+                <td>B</td>
+                <td><button onclick="deleteRow(this)">Delete</button></td>
+              </tr>
+              <tr>
+                <td>7</td>
+                <td>Anna White</td>
+                <td>16</td>
+                <td>A</td>
+                <td><button onclick="deleteRow(this)">Delete</button></td>
+              </tr>
+              <tr>
+                <td>8</td>
+                <td>David Johnson</td>
+                <td>15</td>
+                <td>B</td>
+                <td><button onclick="deleteRow(this)">Delete</button></td>
+              </tr>
+              <tr>
+                <td>9</td>
+                <td>Emma Martinez</td>
+                <td>16</td>
+                <td>A</td>
+                <td><button onclick="deleteRow(this)">Delete</button></td>
+              </tr>
+              <tr>
+                <td>10</td>
+                <td>James Anderson</td>
+                <td>17</td>
+                <td>B</td>
+                <td><button onclick="deleteRow(this)">Delete</button></td>
+              </tr>
+            </tbody>
+          </table>
+          <!-- Question:no:04 -->
+          <div style="text-align: center;">
+            <img 
+              src="https://via.placeholder.com/300/FF0000?text=Original" 
+              alt="Original Image" 
+              onmouseover="changeImage(this)" 
+              onmouseout="resetImage(this)">
+          </div>
+          <!-- Question:no:05 -->
+          <p id="counter">0</p>
+          <button class="decrease" onclick="decrease()">Decrease</button>
+          <button class="increase" onclick="increase()">Increase</button>
+        
+    <script src="sript.js"></script>
+</body>
+</html>
